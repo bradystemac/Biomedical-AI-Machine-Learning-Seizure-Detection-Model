@@ -1,0 +1,7 @@
+,Original Test Accuracy,PCA Test Accuracy,Original Test F1-Score,PCA Test F1-Score,Original Best Parameters,PCA Best Parameters
+Support Vector Machine,0.978696,0.97913,0.946213,0.947484,"{'C': 10, 'kernel': 'rbf'}","{'C': 10, 'kernel': 'rbf'}"
+Random Forest,0.975652,0.974783,0.938326,0.937634,"{'max_features': 'sqrt', 'n_estimators': 100, 'random_state': 42}","{'max_features': 'sqrt', 'n_estimators': 100, 'random_state': 42}"
+Naive Bayes,0.956087,0.955652,0.890574,0.892632,{'var_smoothing': 1e-09},{'var_smoothing': 1e-09}
+Decision Tree,0.94087,0.953043,0.84,0.880266,"{'criterion': 'entropy', 'max_depth': 10}","{'criterion': 'entropy', 'max_depth': 10}"
+K-Nearest Neighbors,0.936522,0.938261,0.812339,0.818414,"{'n_neighbors': 3, 'weights': 'distance'}","{'n_neighbors': 3, 'weights': 'distance'}"
+Logistic Regression,0.819565,0.806087,0.191033,0.059072,"{'C': 10, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'lbfgs'}","{'C': 1.0, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'lbfgs'}"

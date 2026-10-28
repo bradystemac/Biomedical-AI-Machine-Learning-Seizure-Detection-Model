@@ -1,0 +1,7 @@
+,Best Parameters,Best CV Accuracy,Test Accuracy,Test Precision,Test Recall,Test F1-Score,Test ROC-AUC
+Support Vector Machine,"{'C': 10, 'kernel': 'rbf'}",0.976848,0.978696,0.955654,0.936957,0.946213,0.996119
+Random Forest,"{'max_features': 'sqrt', 'n_estimators': 100, 'random_state': 42}",0.973261,0.975652,0.950893,0.926087,0.938326,0.996543
+Naive Bayes,{'var_smoothing': 1e-09},0.956957,0.956087,0.887689,0.893478,0.890574,0.983827
+Decision Tree,"{'criterion': 'entropy', 'max_depth': 10}",0.939022,0.94087,0.915385,0.776087,0.84,0.920119
+K-Nearest Neighbors,"{'n_neighbors': 3, 'weights': 'distance'}",0.928587,0.936522,0.993711,0.686957,0.812339,0.911177
+Logistic Regression,"{'C': 10, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'lbfgs'}",0.823478,0.819565,0.924528,0.106522,0.191033,0.499716
